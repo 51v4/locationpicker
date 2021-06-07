@@ -95,6 +95,7 @@ class PlacePickerState extends State<PlacePicker> {
         leading: null,
         automaticallyImplyLeading: false,
       ),
+      resizeToAvoidBottomInset: false,
       body: Column(
         children: <Widget>[
           Expanded(
